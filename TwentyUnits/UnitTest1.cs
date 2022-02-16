@@ -161,5 +161,13 @@ namespace TwentyUnits
             double height = 8.6;
             Assert.Equal(4.3, Math.Round(TrapezoidFormulas.GetInscribedCircleRadius(height), 1));
         }
+
+        [Fact]
+        public void Test21()
+        {
+            double a = 8.6;
+            double b = 10.2;
+            Assert.Equal(18.8, Math.Round(TrapezoidFormulas.LetsCheckThisOut(a, b), 1));
+        }
     }
 }

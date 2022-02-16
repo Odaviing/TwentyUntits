@@ -55,5 +55,10 @@ namespace TwentyUnits
         {
             return height / 2;
         }
+
+        public static double LetsCheckThisOut(double a, double b)
+        {
+            return a + b;
+        }
     }
 }
