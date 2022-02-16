@@ -11,6 +11,14 @@ namespace TwentyUnits
             return diametr * 3.14;
         }
 
+        
+        
+        
+        
+        
+        
+        
+        
         public static double GetCircumferenceThroughRadius(double radius)
         {
             return radius * 2 * 3.14;
