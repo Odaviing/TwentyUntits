@@ -60,5 +60,10 @@ namespace TwentyUnits
         {
             return a + b;
         }
+
+        public static double LetsCheckThisOutTheSequel(double a, double b)
+        {
+            return a - b;
+        }
     }
 }
