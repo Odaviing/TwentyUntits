@@ -51,6 +51,10 @@ namespace TwentyUnits
             return ((3.14 * radius) / 180) * centerAngle;
         }
 
+        
+        
+        
+        
         public static double GetSectorSquareThroughCenterAngle(double radius, double centerAngle)
         {
             return ((3.14 * Math.Pow(radius, 2)) / 360) * centerAngle;
