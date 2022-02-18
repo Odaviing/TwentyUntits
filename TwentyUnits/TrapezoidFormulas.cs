@@ -16,6 +16,10 @@ namespace TwentyUnits
             return (2 * middleLine) - secondBase;
         }
 
+        
+        
+        
+        
         public static double GetSideThroughHeightAndBottomAngle(double height, double bottomAngleSinus)
         {
             return height / bottomAngleSinus;
