@@ -21,6 +21,11 @@ namespace TwentyUnits
             return height / bottomAngleSinus;
         }
 
+        
+        
+        
+        
+        
         public static double GetMiddleLineThroughHeightAndSquare(double height, double square)
         {
             return square / height;
